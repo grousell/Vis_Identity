@@ -67,9 +67,7 @@ Basically **xaringan** injected the chakra of R Markdown (minus Pandoc) into **r
 
 # New Slide
 
-<<<<<<< HEAD
+
 test 1234
 
 
-=======
->>>>>>> 80876f2de4581a2668d9391d0c6c9637e51a4789
