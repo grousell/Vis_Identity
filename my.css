@@ -1,0 +1,59 @@
+body {
+    position: absolute;
+    left: 0;}
+
+.title-slide {
+	background-color: white;
+	background-image: url(https://user-images.githubusercontent.com/14876124/52062864-4c03de00-253f-11e9-9968-2ab11e20f3b4.png);
+	background-position: center bottom 25px;
+	background-size: 25%;
+	}
+
+.mainslide {
+   background-color: white;
+   color: black;
+   font-size: 2em;
+   background-image: url(https://user-images.githubusercontent.com/14876124/52061530-8455ed00-253c-11e9-9a20-10efb49e8853.png);
+   background-position: center bottom 10px;
+   background-size: 30%;
+   }
+
+.my-logo-left {
+content: "";
+    position: absolute;
+    top: 15px;
+    left:   20px;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://user-images.githubusercontent.com/14876124/52061531-8455ed00-253c-11e9-9b5d-fc5e8ba02f6e.png);
+}
+
+.my-logo-right {
+content: "";
+    position: absolute;
+    top: 15px;
+    right:   8px;
+    height: 40px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://www.r-project.org/logo/Rlogo.png);
+}
+
+.my-logo-bottom {
+content: "";
+    position: absolute;
+    top: 575px;
+    right: 200px;
+    height: 100px;
+    width: 450px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+img {
+    max-width: 100%;
+}

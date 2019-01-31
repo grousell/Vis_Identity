@@ -21,7 +21,9 @@ class: mainslide, center, top
 
 And here is where we add even more text. 
 
-Here is line 2. And some more text. 
+Here is line 2. 
+
+Here is line 3. 
 
 ???
 
