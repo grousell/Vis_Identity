@@ -2,4 +2,5 @@
 
 A repo for images. 
 
-![](C:\Users\grousell\OneDrive - Grand Erie DSB\Communications\Vis_Identity\Images\GEDSB_LOGO_Colour.jpg)
+
+![](https://user-images.githubusercontent.com/14876124/52060670-aea6ab00-253a-11e9-95da-46e21918c3bb.jpg)
