@@ -22,10 +22,10 @@ div.slide {
 
 div.slide h1 {
 	font-family: "Optima";
-	font-size: 75px;
+	font-size: 50px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
+	/*font-weight: 500;
 	/*line-height: 26.4px;*/
 	color: #04559f;
 	padding-top: 25px;
@@ -34,7 +34,7 @@ div.slide h1 {
 	
 div.slide h2 {
 	font-family: "Optima";
-	font-size: 100px;
+	font-size: 50px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -44,12 +44,12 @@ div.slide h2 {
 
 div.slide h3 {
 	font-family: "Optima";
-	font-size: 100px;
-	font-style: normal;
+	font-size: 33px;
+	font-style: italic;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 15.4px;
-	padding-top: 50px;
+	padding-top: 5px;
 }
 
 div.slide p {

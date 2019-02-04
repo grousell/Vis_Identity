@@ -45,3 +45,23 @@ summary(cars)
 plot(pressure)
 ```
 
+## Importing a Local Image
+
+![](Images/GEDSB-Logo_Colour.png){width=50%}
+
+## Importing a GIF
+
+### Local and From Web
+<div style="float: left; width: 50%;">
+Local:
+![](Images/say_you_do_here.gif){width=100%}
+
+</div>
+
+<div style="float: right; width: 50%;">
+Web Location:
+![](https://media1.tenor.com/images/f844d675bdfd585920225c76d457c181/tenor.gif){width=100%}
+
+</div>
+
+

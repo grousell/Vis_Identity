@@ -9,6 +9,7 @@ body {
 	background-size: 25%;
 	}
 
+
 .mainslide {
    background-color: white;
    color: black;
@@ -54,6 +55,9 @@ content: "";
     
 }
 
-img {
-    max-width: 100%;
+
+.footer {
+    color: black; background: #E8E8E8;
+    position: fixed; top: 85%;
+    text-align:center; width:60%;
 }
