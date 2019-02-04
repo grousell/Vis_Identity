@@ -1,0 +1,47 @@
+---
+title: "Slidy<br><br>This is some text!"
+#subtitle: "Test Presentation"
+output: 
+  slidy_presentation:
+    css: slidy.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Two Columns
+
+<div style="float: left; width: 40%;">
+
+![](https://user-images.githubusercontent.com/14876124/52061531-8455ed00-253c-11e9-9b5d-fc5e8ba02f6e.png){width=120%}
+
+</div>
+
+<div style="float: right; width: 60%;">
+
+* Bullet 1
+  - Sub bullet
+* Bullet 2
+* Bullet 3
+
+</div>
+
+## Slide with R Output
+
+```{r plot1, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure, fig.width=8, fig.height=4}
+plot(pressure)
+```
+

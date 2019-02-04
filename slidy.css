@@ -1,0 +1,119 @@
+/* If the padding property has four values:
+padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px
+
+http://courses.ischool.berkeley.edu/i290ta/f14/slides/slidy.xhtml#(3)
+
+https://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css
+
+*/
+
+div.slide {
+  line-height: 120%;
+  background-color: transparent;
+  background-image: url(https://user-images.githubusercontent.com/14876124/52061530-8455ed00-253c-11e9-9a20-10efb49e8853.png);
+  background-position: center bottom 25px;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+div.slide h1 {
+	font-family: "Optima";
+	font-size: 75px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	/*line-height: 26.4px;*/
+	color: #04559f;
+	padding-top: 25px;
+	padding-left: 25px;
+	}
+	
+div.slide h2 {
+	font-family: "Optima";
+	font-size: 100px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	
+}
+
+div.slide h3 {
+	font-family: "Optima";
+	font-size: 100px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	padding-top: 50px;
+}
+
+div.slide p {
+	font-family: "Optima";
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 48px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+/* Bullet lists */
+
+ul {
+  list-style-type: circle;
+  padding-left: 100px;
+  font-family: "Optima";
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 48px;
+  }
+  
+ul ul {
+  font-size: 85%;
+  font-style: italic;
+  padding-left: 25px;}
+
+/* Numbered lists */
+
+li {
+  padding-left: 100px;
+  font-family: "Optima";
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 48px;
+}
+
+li li { font-size: 85%; font-style: italic }
+
+/* Title Slides */
+
+.slide.titlepage {
+  text-align: center;
+  background-image: url(https://user-images.githubusercontent.com/14876124/52062864-4c03de00-253f-11e9-9968-2ab11e20f3b4.png);
+  background-position: center bottom 20px;
+  background-size: 20%;
+  background-repeat: no-repeat;
+}
+
+
+.slide.titlepage h1 {
+  text-align: center;
+  font-family: "Optima";
+  font-size: 75px;
+  line-height: 1;
+  color: #04559f;
+  font-weight: bold;
+  }
+  
+
+
